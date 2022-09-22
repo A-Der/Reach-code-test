@@ -19,6 +19,8 @@ import {
 import "./section3.scss";
 import "react-table-6/react-table.css";
 
+// approx. 6.5hours
+
 const fetchArticles = async () => {
   const res = await fetch("https://api.spaceflightnewsapi.net/v3/articles");
   return res.json();
