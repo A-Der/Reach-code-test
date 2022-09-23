@@ -1,6 +1,6 @@
 import { filterData } from "../section3/section3.config";
 
-describe("Filter Function", () => {
+describe("Filter Data Function", () => {
   describe("given an array of data and a value to filter with", () => {
     it("returns data only with that given value", () => {
       const value = "Teslarati";
